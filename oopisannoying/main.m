@@ -14,7 +14,11 @@ int main(int argc, const char * argv[])
     @autoreleasepool {
         
         // insert code here...
-        NSLog(@"Hello, World!");
+        NSNumber *number = @23;
+        NSDictionary *aPerson = @{ @"firstname" : @"Alice", @"lastname" : @"Masterson", @"age" : number };
+        for (NSString *key in aPerson) {
+            NSLog(@"%@ : %@", key, aPerson[key] );
+        }
         
     }
     return 0;
