@@ -10,6 +10,7 @@
 		09254BC9191997E80069C772 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09254BC8191997E80069C772 /* Foundation.framework */; };
 		09254BCC191997E80069C772 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09254BCB191997E80069C772 /* main.m */; };
 		09254BD0191997E80069C772 /* oopisannoying.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 09254BCF191997E80069C772 /* oopisannoying.1 */; };
+		09254BD81919A9310069C772 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 09254BD71919A9310069C772 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		09254BCB191997E80069C772 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		09254BCE191997E80069C772 /* oopisannoying-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "oopisannoying-Prefix.pch"; sourceTree = "<group>"; };
 		09254BCF191997E80069C772 /* oopisannoying.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = oopisannoying.1; sourceTree = "<group>"; };
+		09254BD61919A9310069C772 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Person.h; path = oopisannoying/Person.h; sourceTree = "<group>"; };
+		09254BD71919A9310069C772 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = oopisannoying/Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +51,8 @@
 		09254BBC191997E80069C772 = {
 			isa = PBXGroup;
 			children = (
+				09254BD61919A9310069C772 /* Person.h */,
+				09254BD71919A9310069C772 /* Person.m */,
 				09254BCA191997E80069C772 /* oopisannoying */,
 				09254BC7191997E80069C772 /* Frameworks */,
 				09254BC6191997E80069C772 /* Products */,
@@ -139,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09254BD81919A9310069C772 /* Person.m in Sources */,
 				09254BCC191997E80069C772 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
